@@ -1,1 +1,259 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #E8F0FC !important;
+}
+
+p {
+    font-size: 14.5px;
+}
+
+a {
+    color: none;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: none !important;
+    }
+
+    &:focus {
+        text-decoration: none;
+    }
+
+    &:active {
+        text-decoration: none;
+    }
+}
+
+*:focus {
+    box-shadow: none !important;
+}
+
+button {
+    &:focus {
+        outline: none;
+    }
+
+    &:active {
+        outline: none;
+    }
+}
+
+textarea {
+    &:focus {
+        outline: none;
+    }
+}
+
+input {
+    font-family: "Roboto" !important;
+    font-style: normal !important;
+    color: #212529 !important;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.material-icons {
+    display: inline-flex;
+    vertical-align: middle;
+    font-size: 0.69rem !important;
+}
+
+.invalid_msg {
+    font-size: 0.69rem !important;
+}
+
+.form-control {
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+h4,
+p,
+a,
+label,
+span,
+input {
+    background-color: #ffff !important;
+}
+
+label {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #032033;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    margin: 0;
+    padding: 0;
+}
+
+small {
+    font-size: 0.69rem;
+    font-weight: 500 !important;
+    line-height: 18px !important;
+}
+
+input.ng-invalid.ng-touched {
+    border: 0.9px solid #Dc3545;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.label_text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #032033;
+}
+
+.main_btn {
+    background: #032033 !important;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffff;
+    transition: all 300ms ease-in-out;
+    height: 32px;
+}
+
+.main_btn:hover {
+    color: #ffff;
+}
+
+
+.regular_text {
+    font-size: 12px;
+}
+
+
+.regular_text_two {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #7D7373;
+}
+
+
+
+
+// main css start
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    .login_container {
+        width: 100%;
+        border-radius: 5px;
+        // height: auto;
+        // min-height: 550px;
+        height: 85% !important;
+        margin: auto !important;
+
+        .login_container__left {
+            padding: 10px;
+            background-color: #ffff !important;
+            display: flex;
+            justify-content: center;
+
+            .login_form_wrapper {
+                width: 461px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h4 {
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 28px;
+                    line-height: 45px;
+                }
+
+                form {
+                    margin-top: 20px;
+                }
+
+                .form_check {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                a {
+                    color: #032033 !important;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .login_container__right {
+            padding: 10px;
+            background: url("./assets/image/3.PNG") !important;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    }
+}
+
+.form-control {
+    font-size: 11px !important;
+    line-height: 18px;
+}
